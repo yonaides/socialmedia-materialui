@@ -1,5 +1,5 @@
 import { makeStyles } from "@mui/styles";
-import Container from "@mui/material/Container";
+import Feed from "../components/Feed";
 
 const useStyle = makeStyles((theme) => ({
   container:{
@@ -9,5 +9,5 @@ const useStyle = makeStyles((theme) => ({
 
 export default function Home() {
   const clasess = useStyle();
-  return <Container className={clasess.container}> Home page </Container>;
+  return <Feed/>;
 }
